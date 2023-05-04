@@ -1,0 +1,9 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:complexType name="WorkerRequest">
+        <xsd:all>
+            <xsd:element name="PartNumber" type="xsd:unsignedLong"/>
+            <xsd:element name="PartCount" type="xsd:unsignedLong"/>
+            <xsd:element name="Hash" type="xsd:string"/>
+        </xsd:all>
+    </xsd:complexType>
+</xsd:schema>
